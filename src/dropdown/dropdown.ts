@@ -119,7 +119,7 @@ export class NgbDropdown implements OnInit {
    * When it is true (default) dropdowns are automatically closed on both outside and inside (menu) clicks.
    * When it is false dropdowns are never automatically closed.
    * When it is 'outside' dropdowns are automatically closed on outside clicks but not on menu clicks.
-   * When it is 'inside' dropdowns are automatically on menu clicks but not on outside clicks.
+   * When it is 'inside' dropdowns are automatically closed on menu clicks but not on outside clicks.
    */
   @Input() autoClose: boolean | 'outside' | 'inside';
 
